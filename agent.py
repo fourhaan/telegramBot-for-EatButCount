@@ -6,7 +6,7 @@ from pathlib import Path
 from fastmcp import Client
 
 # load env
-env_path = Path(__file__).resolve().parent.parent / ".env"
+env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 MCP_SERVER_URL = os.getenv(

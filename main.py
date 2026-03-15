@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 # --------------------------
 # Load environment variables
 # --------------------------
-env_path = Path(__file__).resolve().parent.parent / ".env"
+env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
