@@ -11,7 +11,7 @@ load_dotenv(env_path)
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 MCP_SERVER_URL = os.getenv(
     "MCP_SERVER_URL",
-    "https://semiacademically-prehensile-karoline.ngrok-free.dev/sse",
+    "https://mcpserver-for-eatbutcount.onrender.com",
 )
 MCP_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
