@@ -1,0 +1,5 @@
+python-dotenv
+supabase
+python-telegram-bot
+google-genai
+fastmcp
